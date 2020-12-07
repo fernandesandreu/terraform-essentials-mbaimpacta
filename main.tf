@@ -10,8 +10,6 @@ terraform {
 provider "google" {
   version = "3.5.0"
 
-  credentials = file("/vagrant/learned-iridium-295813-a6b879c4f1c1.json")
-
   project     = "learned-iridium-295813"
   region  = "us-central1"
   zone    = "us-central1-c"
