@@ -10,7 +10,7 @@ terraform {
 provider "google" {
   version = "3.5.0"
 
-  project     = "learned-iridium-295813"
+  project     = "diegofernan-mbaimpacta-turma04"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
